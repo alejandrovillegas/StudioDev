@@ -10,7 +10,10 @@ body {
 }
 
 header {
+	position: fixed;
 	padding: 10px 0;
+	width: 100%;
+	background-color: rgba(48, 48, 48, 0.5);
 }
 
 header img {
@@ -76,6 +79,13 @@ header nav a.active{
 	padding: 10px;
 }
 
+#video {
+	background-color: black;
+	text-align: center;
+	padding: 30px 0;
+
+}
+
 #portafolio {
 	background-color: whitesmoke;
 }
@@ -95,14 +105,57 @@ header nav a.active{
 	padding: 10px;
 }
 
+#contacto{
+	background-color: #303030;
+	background-image: url('../images/map-image.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#contacto h2{
+	color: white;
+}
+
+#contacto input{
+	padding: 20px;
+	width: 400px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+#contacto textarea {
+	margin: 20px 0;
+	padding: 20px;
+	width: 400px;
+}
+
+#contacto button {
+	background-color: #fed136;
+	padding: 20px 40px;
+	border-color: #fed136;
+	border-radius: 3px;
+	color: white;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: bold;
+
+}
+
 section{
 	padding: 80px 0;
 }
 
-section h2{
+section h2 {
 	font-size: 32px;
 	text-align: center;
 	margin-bottom: 80px;
+}
+
+footer {
+	padding: 90px 0;
+	text-align: center;
+	font-size: 18px;
 }
 
 .container {

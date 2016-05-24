@@ -10,15 +10,17 @@
 </head>
 
 <body>
-	<div class="home-wrapper">
-		<header class="container">
+	<div class="home-wrapper">	
+		<header>
+			<div class="container">
 			<img src="images/logo.png" alt="StudioDev Logo">
-			<nav>
-				<a href="#home" class="active">HOME</a>
-				<a href="#servicios">SERVICIOS</a>
-				<a href="#portafolio">PORTAFOLIO</a>
-				<a href="#contacto">CONTACTO</a>
-			</nav>
+				<nav>
+					<a href="#home" class="active">HOME</a>
+					<a href="#servicios">SERVICIOS</a>
+					<a href="#portafolio">PORTAFOLIO</a>
+					<a href="#contacto">CONTACTO</a>
+				</nav>
+			</div>
 		</header>
 
 		<section id="home" class="container">
@@ -49,6 +51,10 @@
 			<h3>Mobile Development</h3>
 			<p>Somos expertos en Mobile Development. Creemos que el futuro está en responsive design y no nativo.</p>
 		</div>
+	</section>
+
+	<section id="video">
+		<iframe width="640" height="360" src="https://www.youtube.com/embed/4jZBwyG7HPs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 	</section>
 
 	<section id="portafolio">
@@ -90,14 +96,15 @@
 	<section id="contacto">
 		<h2>CONTACTO</h2>
 		<form>
-			<input type="" name="">
-			<textarea rows="10">
-				
-			</textarea>
+			<div><input type="text" placeholder="Email"></div>
+			<div><textarea rows="10" placeholder="Tu mensaje"></textarea></div>
 			<button>ENVIAR</button>
 		</form>
 	</section>
-	<footer>2016 Studio Dev, Todos los Derechos Reservados</footer>
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4023725931056!2d-75.56793668549753!3d6.210542995504126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428291c387525%3A0xc07cf6a81c221369!2sRestaurante+Primos!5e0!3m2!1ses-419!2sco!4v1464125333300" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+	<footer>2016 <strong>Studio Dev</strong>, Todos los Derechos Reservados</footer>
 
 	</body>
 </html>
